@@ -93,8 +93,11 @@ section {
   margin: 2rem 0.4rem;
 }
 section p{
-  padding: 1rem .5rem;
   text-align: left;
+  padding: 1rem .5rem;
+}
+.container-section{
+  padding: 1rem .5rem;
 }
 .antique-light{
  background-color: rgb(255, 246, 235);
