@@ -51,7 +51,7 @@ nav ul {
   margin-top: 1rem;
   text-align: right;
 }
-nav li {
+nav .nav-pills{
   color: white;
   padding: 0.4rem 0.3;
   margin: 0px 0.2rem;
@@ -124,6 +124,10 @@ section p{
   border-radius: 0.5rem;
 }
 
+.link-text-dec-none{
+  text-decoration: none;
+}
+
 .btn-primary {
   background-color: var(--color-primary);
   color: var(--color-secondary);
@@ -137,7 +141,6 @@ section p{
 }
 
 .link {
-  text-decoration: none;
   color: black;
 }
 
