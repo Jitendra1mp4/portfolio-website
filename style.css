@@ -1,6 +1,4 @@
 
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Work+Sans:wght@500&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 :root {
   --color-primary: #22c55e;
@@ -37,9 +35,9 @@ body {
   max-width: 600px;
   margin: auto;
 }
-.container-fluid {
+/* .container-fluid {
     /* margin: 0px; */
-}
+} */
 
 nav {
   background-color: var(--color-primary);
@@ -90,13 +88,6 @@ header .hero-img {
 .hero-name {
   color: var(--color-primary);
 }
-.antique-light{
- background-color: rgb(255, 246, 235);
-}
-.section-off-white {
-  background-color: var(--color-off-whit);
-}
-
 section {
   padding: 2rem 2rem;
   border-radius: 1rem;
@@ -106,6 +97,13 @@ section p{
   padding: 1rem .5rem;
   text-align: left;
 }
+.antique-light{
+ background-color: rgb(255, 246, 235);
+}
+.section-off-white {
+  background-color: var(--color-off-whit);
+}
+
 .spn-skills{
   font-weight:lighter;
 }
@@ -169,11 +167,6 @@ footer .link-social {
   color: rgb(0, 0, 0);
   margin: 0px 0.1rem;
   font-weight: bold;
-}
-
-
-.padding-1{
-  padding: 1rem;
 }
 
 .label{
