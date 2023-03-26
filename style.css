@@ -10,7 +10,6 @@
 
 }
 *{
-  /* css reset and font-family */
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
@@ -36,7 +35,7 @@ body {
   margin: auto;
 }
 /* .container-fluid {
-    /* margin: 0px; */
+ 
 } */
 
 nav {
