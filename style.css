@@ -1,6 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Work+Sans:wght@500&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Work+Sans:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
 :root {
   --color-primary: #22c55e;
   --color-secondary: rgb(255, 255, 255);
@@ -8,11 +8,23 @@
   --color-gray: #707070;
 
   --t-max-width : 320px ;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-family: 'Work Sans', sans-serif;
+
+}
+*{
+  /* css reset and font-family */
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Exo 2', sans-serif;
 }
 
 
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px auto;
+  max-width: 1200px;
+  width: 100%;
+}
 .brand{
   color: rgb(0, 0, 0);
   font-weight: bolder;
@@ -24,13 +36,13 @@
   margin: auto;
 }
 .container-fluid {
-  margin: 0px;
+    /* margin: 0px; */
 }
 
 nav {
   background-color: var(--color-primary);
   border-bottom-left-radius: 2rem;
-  padding: 0.5rem;
+  padding: 1rem 2rem;
 }
 
 .hero-text{
@@ -48,12 +60,13 @@ nav ul {
 }
 nav li {
   color: white;
-  padding: 0.3rem;
+  padding: 0.4rem 0.3;
+  margin: 0px 0.2rem;
 }
 
 nav .link {
   color: white;
-
+  
 }
 nav .link-active {
   font-weight: bold;
@@ -82,17 +95,21 @@ header .hero-img {
 }
 
 section {
-  padding: 0.7rem 1rem;
+  padding: 0.8rem 2rem;
   border-radius: 1rem;
   margin: 2rem 0.4rem;
 }
 section p{
+  padding: 1rem 0rem;
   text-align: left;
 }
-
+.spn-skills{
+  font-weight:lighter;
+}
 
 .list-item-techs{
   text-align: left;
+  font-weight: 600;
   margin: 0.7rem auto;
   font-size:0.9rem;
   color:#343434;
@@ -132,10 +149,10 @@ section p{
 footer{
   background-color: var(--color-primary);
   border-start-end-radius: 2rem;
-  padding: 1rem;
+  padding: 2rem;
 }
 
-footer ul , p , div{
+footer ul , p , div, li{
   text-align: center;
 }
 footer p{
@@ -146,4 +163,13 @@ footer .link-social {
   color: rgb(0, 0, 0);
   margin: 0px 0.1rem;
   font-weight: bold;
+}
+
+
+.padding-1{
+  padding: 1rem;
+}
+
+.label{
+  margin-top: 2rem;
 }
