@@ -6,7 +6,7 @@
   --color-off-whit: rgb(230, 243, 249);
   --color-gray: #707070;
 
-  --t-max-width : 320px ;
+  --t-max-width : 280px ;
 
 }
 *{
@@ -88,7 +88,7 @@ header .hero-img {
   color: var(--color-primary);
 }
 section {
-  padding: 2rem 2rem;
+  padding: 2rem 0.2rem;
   border-radius: 1rem;
   margin: 2rem 0.4rem;
 }
@@ -115,10 +115,11 @@ section p{
   color:#343434;
 }
 .btn {
-  margin: 0.2rem 0.4rem;
-  padding: 0.5rem;
-  font-size: medium;
-  border-radius: 0.5rem;
+  /* font-weight: bold; */
+  margin: 0.2rem 0px;
+  padding: 0.45rem;
+  font-size:smaller;
+  border-radius: 0.9rem;
 }
 
 .link-text-dec-none{
@@ -165,7 +166,7 @@ footer p{
 footer .link-social {
   color: rgb(0, 0, 0);
   margin: 0px 0.1rem;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .label{
