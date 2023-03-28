@@ -87,7 +87,7 @@ header .hero-img {
 .hero-name {
   color: var(--color-primary);
 }
-section {
+section, article {
   padding: 2rem 1rem;
   border-radius: 1rem;
   margin: 2rem 0.4rem;
