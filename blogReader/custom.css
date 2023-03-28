@@ -1,0 +1,43 @@
+:root{
+    --reader-page-primary-color : rgb(198, 71, 187);
+    --reader-page-secondary-color : rgb(134, 255, 170);
+}
+.brand{
+    color: rgb(247, 219, 255);
+    font-weight: bolder;
+    font-size: large;
+    text-shadow: black 2px 2px 25px ;
+  }
+header{
+    margin: 2rem auto;
+    padding : 1rem ;
+    border-radius: 1rem;
+    background-color: var(--reader-page-secondary-color);
+}
+
+.h1-blog-titel{
+ color: rgb(6, 84, 0);   
+
+}
+h3{
+  text-align: left;
+}
+.para-blog-content{
+    text-align: left;
+    margin: 1rem ;
+    font-size: 1.01rem;
+  }
+  
+  .nav-blog-reader ,.footer-blog-reader{
+    background-color: var(--reader-page-primary-color);
+  }
+  .span-blog-keyword{
+    color: var(--reader-page-primary-color);
+  }
+
+.article-off-white{
+    background-color: rgb(248, 226, 255);
+  }
+  .label-reader{
+    color: bisque;
+  }
