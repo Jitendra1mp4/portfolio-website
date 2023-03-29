@@ -177,3 +177,14 @@ footer .link-social {
   margin-top: 2rem;
   margin-bottom: 0.5rem;
 }
+
+
+.article-blog-part h2, small, p{
+  text-align: left;
+}
+
+.date{
+  text-align: left;
+  display: block;
+  margin-bottom: 0.6rem;
+}
