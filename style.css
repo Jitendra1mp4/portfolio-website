@@ -1,22 +1,19 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 :root {
   --color-primary: #22c55e;
   --color-secondary: rgb(255, 255, 255);
   --color-off-whit: rgb(230, 243, 249);
   --color-gray: #707070;
 
-  --t-max-width : 280px ;
-
+  --t-max-width: 280px;
 }
-*{
+* {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  font-family: 'Exo 2', sans-serif;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -24,11 +21,11 @@ body {
   max-width: 1200px;
   width: 100%;
 }
-.brand{
+.brand {
   color: rgb(0, 0, 0);
   font-weight: bolder;
   font-size: large;
-  text-shadow: black 2px 2px 25px ;
+  text-shadow: black 2px 2px 25px;
 }
 .container-center {
   max-width: 600px;
@@ -48,15 +45,14 @@ nav ul {
   margin-top: 1rem;
   text-align: right;
 }
-nav .nav-pills{
+nav .nav-pills {
   color: white;
-  padding: 0.4rem 0.3;
-  margin: 0px 0.2rem;
+  padding: 0.4rem 0.5;
+  margin: 0px 0.4rem;
 }
 
 nav .link {
   color: white;
-  
 }
 nav .link-active {
   font-weight: bold;
@@ -74,11 +70,11 @@ header {
 
 header .hero-img {
   display: block;
-  max-width:var(--t-max-width);
+  max-width: var(--t-max-width);
   margin: 2rem auto;
 }
 
-.hero-text{
+.hero-text {
   max-width: var(--t-max-width);
   margin: auto;
   padding-left: 0.2rem;
@@ -87,45 +83,49 @@ header .hero-img {
 .hero-name {
   color: var(--color-primary);
 }
-section, article {
+section,
+article {
   padding: 2rem 1rem;
   border-radius: 1rem;
   margin: 2rem 0.4rem;
 }
-section p{
+h2 {
+  font-weight: bold;
+}
+section p {
   text-align: left;
-  padding: 1rem .5rem;
+  padding: 1rem 0.5rem;
 }
-.container-section{
-  padding: 1rem .5rem;
+.container-section {
+  padding: 1rem 0.5rem;
 }
-.antique-light{
- background-color: rgb(255, 246, 235);
+.antique-light {
+  background-color: rgb(255, 246, 235);
 }
 .section-off-white {
   background-color: var(--color-off-whit);
 }
 
-.spn-skills{
-  font-weight:lighter;
+.spn-skills {
+  font-weight: lighter;
 }
 
-.list-item-techs{
+.list-item-techs {
   text-align: left;
   font-weight: 600;
   margin: 0.7rem auto;
-  font-size:0.9rem;
-  color:#343434;
+  font-size: 0.9rem;
+  color: #343434;
 }
 .btn {
   /* font-weight: bold; */
   margin: 0.2rem 0px;
   padding: 0.45rem;
-  font-size:smaller;
+  font-size: smaller;
   border-radius: 0.9rem;
 }
 
-.link-text-dec-none{
+.link-text-dec-none {
   text-decoration: none;
 }
 
@@ -153,16 +153,19 @@ section p{
   color: var(--color-gray);
 }
 
-footer{
+footer {
   background-color: var(--color-primary);
   border-top-left-radius: 3rem;
   padding: 2rem;
 }
 
-footer ul , p , div, li{
+footer ul,
+p,
+div,
+li {
   text-align: center;
 }
-footer p{
+footer p {
   color: var(--color-secondary);
 }
 
@@ -172,18 +175,19 @@ footer .link-social {
   font-weight: bolder;
 }
 
-.label{
+.label {
   color: var(--color-gray);
   margin-top: 2rem;
   margin-bottom: 0.5rem;
 }
 
-
-.article-blog-part h2, small, p{
+.article-blog-part h2,
+small,
+p {
   text-align: left;
 }
 
-.date{
+.date {
   text-align: left;
   display: block;
   margin-bottom: 0.6rem;
