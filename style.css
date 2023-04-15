@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 :root {
-  --color-primary: #22c55e;
+  --color-primary: rgb(0, 181, 115);
+  --color-primary-dark: rgb(0, 47, 30);
+  --color-primary-light: rgb(206, 255, 237);
   --color-secondary: rgb(255, 255, 255);
   --color-off-whit: rgb(230, 243, 249);
   --color-gray: #707070;
@@ -18,11 +20,11 @@
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0px auto;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   width: 100%;
 }
 .brand {
-  color: rgb(0, 0, 0);
+  color: var(--color-primary-light);
   font-weight: bolder;
   font-size: large;
   text-shadow: black 2px 2px 25px;
@@ -37,7 +39,7 @@ body {
 
 nav {
   background-color: var(--color-primary);
-  border-bottom-right-radius: 2rem;
+  /* border-bottom-right-radius: 1rem; */
   padding: 1rem 2rem;
 }
 
@@ -154,8 +156,8 @@ section p {
 }
 
 footer {
-  background-color: var(--color-primary);
-  border-top-left-radius: 3rem;
+  background-color: var(--color-primary-dark);
+  /* border-top-left-radius: 2rem; */
   padding: 2rem;
 }
 
@@ -170,9 +172,8 @@ footer p {
 }
 
 footer .link-social {
-  color: rgb(0, 0, 0);
+  color: var(--color-primary-light);
   margin: 0px 0.1rem;
-  font-weight: bolder;
 }
 
 .label {
