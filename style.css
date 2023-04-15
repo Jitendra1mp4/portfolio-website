@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 :root {
-  --color-primary: rgb(0, 181, 115);
+  --color-primary: #00b573;
   --color-primary-dark: rgb(0, 47, 30);
   --color-primary-light: rgb(206, 255, 237);
   --color-secondary: rgb(255, 255, 255);
@@ -79,7 +79,7 @@ header .hero-img {
 .hero-text {
   max-width: var(--t-max-width);
   margin: auto;
-  padding-left: 0.2rem;
+  padding-left: 0.8rem;
   /* text-align: left; */
 }
 .hero-name {
@@ -89,7 +89,7 @@ section,
 article {
   padding: 2rem 1rem;
   border-radius: 1rem;
-  margin: 2rem 0.4rem;
+  margin: 2rem 1rem;
 }
 h2 {
   font-weight: bold;
