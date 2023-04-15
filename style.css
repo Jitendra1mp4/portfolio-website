@@ -98,6 +98,13 @@ section p {
   text-align: left;
   padding: 1rem 0.5rem;
 }
+
+section .btnContainer{
+  width: fit-content;
+  margin: 0.5rem auto;
+} 
+
+
 .container-section {
   padding: 1rem 0.5rem;
 }
